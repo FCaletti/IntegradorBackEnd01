@@ -1,0 +1,15 @@
+Trabajo integrador del grupo formado por :
+Thiago Diamante, Matias Cuello, German Teves y Fabio Caletti
+
+Usamos la coleccion <<computacion>>
+End points :
+<<GET /computacion/ >>  lista todo
+<<GET /computacion/id/10 >> muestra x codigo, en el ejemplo, codigo 10
+<<GET /computacion/nombre/top >> lista todos cuyo nombre contenga la cadena, en este caso, "top"
+<<POST /computacion/nuevo >> agrega nuevo insumo con valores contenidos en "body"
+<<PATCH /computacion/reempPrecio/10 >> reemplaza el precio, contenido en el "body", del articulo con código, en ete caso, 10
+<<DELETE /computacion/borraCodigo/10>> borra el articulo con codigo 10
+
+<<npm test>> testeo
+
+<<readme.env>> indicaciones para crear archivo .env
